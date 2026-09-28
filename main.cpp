@@ -1,9 +1,9 @@
 #define N 6
-#include <stdio.h>
-
+#include <stdio>
+using namespace std;
 #include "sorting.h"
 
-int main() {
+int main(int argc, char *argv[]) {
   int a[N]={3,2,6,7,3,1};
   int i,j,new_number;
 
