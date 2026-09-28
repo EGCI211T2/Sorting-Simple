@@ -1,5 +1,5 @@
-#define N 6
-#include <stdio>
+#define N 10
+#include <iostream>
 using namespace std;
 #include "sorting.h"
 
