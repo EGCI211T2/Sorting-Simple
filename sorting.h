@@ -1,11 +1,11 @@
-// selection sort function module in C
+// selection sort function module in C++
 
 void display(int a[],int n){
 
     int i;
 
     for(i=0;i<n;i++)
-        printf("%5d",a[i]);
+       cout<<setw(5)<<a[i];
     printf("\n");
   
 }
@@ -26,11 +26,11 @@ void insertion(int a[],int n){
 
 }
 
-void swap(int *a,int *b){
+void swap(int &a,int &b){
  int temp;
-  temp=*a;
-  *a=*b;
-  *b=temp;
+  temp=a;
+   a=b;
+  b=temp;
   
 }
 
