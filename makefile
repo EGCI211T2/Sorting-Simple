@@ -1,8 +1,8 @@
-compile: main.c 
-	 gcc  main.c -o ll
+compile: main.cpp
+	 g++  main.cpp -o sort
 
-run: ll
-	 ./ll
+run: sort
+	 ./sort $(var)
 
-clean: ll
-	 rm ll
+clean: sort
+	 rm sort
